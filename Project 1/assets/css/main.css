@@ -1,0 +1,107 @@
+/* GENERAL FORMATTING */
+
+body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: ;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    line-height: 1.25em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 300;
+}
+
+h1, h3,
+.header-title {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #7d97ad;
+}
+
+.header-title {
+    font-style: italic;
+}
+
+
+/* SPECIFIC FORMATTING */
+
+.header {
+    border-bottom: 2px #7d97ad solid;
+    margin-bottom: 20px;
+}
+
+.header-inner {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.header-logo, .header-text {
+    width: 100%;
+}
+
+.header-image {
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.header-inner, .featured {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 28%;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.5em;
+    font-weight: 100;
+    display: none;
+}
+
+.featured-work {
+    margin-top: 20px;
+}
+
+.content-header, .featured-item {
+    text-align: center;
+}
+
+.featured-item {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.featured-image {
+    max-width: 70%;
+}
