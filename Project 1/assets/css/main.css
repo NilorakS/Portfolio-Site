@@ -76,7 +76,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.hero-grid {
+.hero {
     display: grid;
     grid-template-columns: 70% 30%;
     max-width: 1250px;
