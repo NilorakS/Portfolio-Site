@@ -8,7 +8,12 @@
 }
 
 @media screen and (min-width: 600px) {
-    h1, h2, h3, h4, h5, p {
+    h1, 
+    h2, 
+    h3, 
+    h4, 
+    h5, 
+    p {
         line-height: 1.5em;
     }
 }
@@ -17,7 +22,8 @@
     body {
         font-size: 20px;
     }
-    .header-logo, .header-text {
+    .header-logo, 
+    .header-text {
         width: 50%;
     }
     .header-logo {

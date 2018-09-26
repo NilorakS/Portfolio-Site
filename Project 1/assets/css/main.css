@@ -1,6 +1,7 @@
 /* GENERAL FORMATTING */
 
-body, html {
+body, 
+html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,19 +12,28 @@ body, html {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: ;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+p {
     margin: 0;
     line-height: 1.25em;
 }
 
-h1, h2, h3, h4, h5 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
     font-weight: 300;
 }
 
-h1, h3,
+h1, 
+h3,
 .header-title {
     text-transform: uppercase;
 }
@@ -50,7 +60,8 @@ h2 {
     margin: 10px;
 }
 
-.header-logo, .header-text {
+.header-logo, 
+.header-text {
     width: 100%;
 }
 
@@ -59,7 +70,8 @@ h2 {
     filter: grayscale(100%);
 }
 
-.header-inner, .featured {
+.header-inner, 
+.featured {
     display: flex;
     flex-wrap: wrap;
 }
@@ -92,7 +104,8 @@ h2 {
     margin-top: 20px;
 }
 
-.content-header, .featured-item {
+.content-header, 
+.featured-item {
     text-align: center;
 }
 
