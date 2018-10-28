@@ -1,8 +1,6 @@
-# Front-End Web Development Project 1: Portfolio Site
+# Portfolio Site Project
 
-This repository contains the first project I have implemented during the Udacity Front-End Web Developer Nanodegree course. 
-
-## How To
+## Getting Started
 
 1. Click on "Clone or download" button in the upper right corner
 2. Download the repository ("Download ZIP")
